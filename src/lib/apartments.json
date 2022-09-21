@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "title": "Manhattan Bowery",
     "rating": 4.9,
     "location": "Chinatown, NYC",
@@ -10,6 +11,7 @@
     }
   },
   {
+    "id": 2,
     "title": "Apartments in Frejus",
     "rating": 4.7,
     "location": "Frejus, France",
@@ -20,6 +22,7 @@
     }
   },
   {
+    "id": 3,
     "title": "Levero Apartments",
     "rating": 4.7,
     "location": "Warsaw, Poland",
@@ -30,6 +33,7 @@
     }
   },
   {
+    "id": 4,
     "title": "Daynight Apartments",
     "rating": 4.7,
     "location": "Tokyo, Japan",
@@ -40,6 +44,7 @@
     }
   },
   {
+    "id": 5,
     "title": "Berlin Lowtown",
     "rating": 5,
     "location": "Berlin, Germany",
@@ -50,6 +55,7 @@
     }
   },
   {
+    "id": 6,
     "title": "Nadzaladevi",
     "rating": 3.5,
     "location": "Tbilisi, Georgia",
@@ -60,6 +66,7 @@
     }
   },
   {
+    "id": 7,
     "title": "Istanbul Yaka",
     "rating": 4.7,
     "location": "Istanbul, Turkey",
@@ -70,6 +77,7 @@
     }
   },
   {
+    "id": 8,
     "title": "19 Tapgyr",
     "rating": 4.7,
     "location": "Ashgabat, Turkmenistan",
