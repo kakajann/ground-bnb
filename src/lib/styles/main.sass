@@ -1,8 +1,13 @@
 @import normalize.sass
+@import fonts.sass
 
 $primary: #AEBDCA
 $secondary: #E8DFCA
 $light: #F5EFE6
+$gray: #888888
+
+html, body
+  font-family: lato
 
 header
   background: $light
@@ -11,3 +16,53 @@ header
   > a.logo
     img
       height: 100%
+
+div#home
+  display: flex
+  flex-direction: row
+  padding: 1em
+  div.map
+    width: 30%
+  
+#apartments-list
+  flex: 1
+  display: grid
+  grid-template-columns: repeat(4, 1fr)
+  grid-gap: 1em
+  width: 400px
+  div.apartment
+    border: 1px solid $light
+    padding: 1em
+    border-radius: .4em
+    width: 100%
+    > img
+      border-radius: .4em
+      width: 100%
+    > div.title
+      display: flex
+      align-items: center
+      justify-content: space-between
+      padding: 1em 0 .6em
+      > a
+        font-weight: bold
+    > span.location
+      font-size: 14px
+      display: flex
+      align-items: center
+      color: $gray
+      img
+        margin-right: .2em
+    > div.details
+      display: flex
+      align-items: center
+      padding-top: 1em
+      > span
+        padding-right: .4em
+      > div.price
+        margin-left: auto
+        span
+          &:first-child
+            color: $gray
+          &:last-child
+            font-weight: bold
+            font-size: 20px
