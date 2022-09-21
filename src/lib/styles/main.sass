@@ -6,6 +6,7 @@ $secondary: #E8DFCA
 $light: #F5EFE6
 $gray: #888888
 $dark: #222222
+$red: #FF6C5C
 
 html, body
   font-family: lato
@@ -46,12 +47,31 @@ div#home
   display: grid
   grid-template-columns: repeat(4, 1fr)
   grid-gap: 1em
-  width: 400px
   div.apartment
     border: 1px solid $light
     padding: 1em
     border-radius: .4em
     width: 100%
+    position: relative
+    > button.wishlist
+      appearance: none
+      background: $primary
+      border: none
+      position: absolute
+      padding: .2em
+      top: 2em
+      right: 2em
+      width: 25px
+      height: 25px
+      display: flex
+      align-items: center
+      justify-content: center
+      border-radius: .4em
+      cursor: pointer
+      &.added
+        background: $red
+      > img
+        font-size: 0
     > img
       border-radius: .4em
       width: 100%
@@ -83,3 +103,10 @@ div#home
           &:last-child
             font-weight: bold
             font-size: 20px
+  
+#wishlist
+  padding: 1em
+  h2
+    font-weight: bold
+    font-size: 22px
+    margin-bottom: 1em
