@@ -11,4 +11,19 @@ declare namespace App {
 	// interface PageError {}
 
 	// interface Platform {}
+
+  namespace Apartment {
+    type ItemDetails = {
+      bedrooms: number
+      size: number
+    }
+
+    type Item = {
+      title: string
+      rating: number
+      location: string
+      price: number
+      details: Apartment.ItemDetails
+    }
+  }
 }
