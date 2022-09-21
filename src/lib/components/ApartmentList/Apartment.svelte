@@ -1,9 +1,19 @@
 <script lang="ts">
+  import { wishlist } from '$lib/stores'
+
   export let apartment: App.Apartment.Item;
   export let index: number;
+
+  const handleWishlist = () => {
+    wishlist.toggle(apartment.id)
+  }
+
 </script>
 
 <div class="apartment">
+  <button class={`wishlist ${$wishlist.includes(apartment.id) ? 'added' : ''}`} on:click={handleWishlist}>
+    <img src="/icons/heart.svg" alt="Heart">
+  </button>
   <img src={`/apartments/${index + 1}.jpg`} alt="Apartment">
   <div class="title">
     <a href="/apartment/1">
