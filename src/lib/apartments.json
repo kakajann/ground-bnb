@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Manhattan Bowery",
+    "rating": 4.9,
+    "location": "Chinatown, NYC",
+    "price": 85,
+    "details": {
+      "bedrooms": 2,
+      "size": 89
+    }
+  },
+  {
+    "title": "Apartments in Frejus",
+    "rating": 4.7,
+    "location": "Frejus, France",
+    "price": 75,
+    "details": {
+      "bedrooms": 2,
+      "size": 55
+    }
+  },
+  {
+    "title": "Levero Apartments",
+    "rating": 4.7,
+    "location": "Warsaw, Poland",
+    "price": 44,
+    "details": {
+      "bedrooms": 1,
+      "size": 42
+    }
+  },
+  {
+    "title": "Daynight Apartments",
+    "rating": 4.7,
+    "location": "Tokyo, Japan",
+    "price": 420,
+    "details": {
+      "bedrooms": 4,
+      "size": 204
+    }
+  },
+  {
+    "title": "Berlin Lowtown",
+    "rating": 5,
+    "location": "Berlin, Germany",
+    "price": 120,
+    "details": {
+      "bedrooms": 2,
+      "size": 120
+    }
+  },
+  {
+    "title": "Nadzaladevi",
+    "rating": 3.5,
+    "location": "Tbilisi, Georgia",
+    "price": 35,
+    "details": {
+      "bedrooms": 1,
+      "size": 90
+    }
+  },
+  {
+    "title": "Istanbul Yaka",
+    "rating": 4.7,
+    "location": "Istanbul, Turkey",
+    "price": 48,
+    "details": {
+      "bedrooms": 3,
+      "size": 87
+    }
+  },
+  {
+    "title": "19 Tapgyr",
+    "rating": 4.7,
+    "location": "Ashgabat, Turkmenistan",
+    "price": 10,
+    "details": {
+      "bedrooms": 10,
+      "size": 302
+    }
+  }
+]
