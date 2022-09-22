@@ -39,8 +39,9 @@ div#home
   display: flex
   flex-direction: row
   padding: 1em
-  div.map
+  div.form
     width: 30%
+    padding: 1em
   
 #apartments-list
   flex: 1
@@ -110,3 +111,29 @@ div#home
     font-weight: bold
     font-size: 22px
     margin-bottom: 1em
+  
+form
+  .groups
+    display: flex
+    gap: 1em
+    justify-content: space-between
+    .group
+      flex: 1
+  .group
+    margin-bottom: 1.6em
+    label
+      font-weight: bold
+      display: flex
+      margin-bottom: .6em
+    input
+      border: 1px solid $light
+      font-size: 16px
+      width: 100%
+      border-radius: .6em
+      padding: .6em .8em
+      outline: none
+      transition: border-color 120ms ease
+      &:hover
+        border-color: $secondary
+      &:focus
+        border-color: $primary
