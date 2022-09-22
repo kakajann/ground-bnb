@@ -1,5 +1,6 @@
 <script>
   import ApartmentList from '$lib/components/ApartmentList/index.svelte';
+  import CreateApartmentForm from '$lib/components/CreateApartmentForm/index.svelte'
   import data from '$lib/apartments.json'
 </script>
 
@@ -9,7 +10,7 @@
 
 <div id="home">
   <ApartmentList apartments={data} />
-  <div class="map">
-    map here
+  <div class="form">
+    <CreateApartmentForm />
   </div>
 </div>
