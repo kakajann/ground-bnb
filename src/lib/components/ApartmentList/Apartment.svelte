@@ -30,7 +30,7 @@
   <div class="details">
     <span>{apartment.details.bedrooms} beds</span>
     <span>▪</span>
-    <span>{apartment.details.bedrooms} &#13217;</span>
+    <span>{apartment.details.size} &#13217;</span>
     <div class="price">
       <span>from</span>
       <span>${apartment.price}</span>
