@@ -22,6 +22,8 @@ header
       height: 60px
   > div.menu
     margin-left: auto
+    display: flex
+    align-items: center
     a
       font-weight: bold
       font-size: 18px
@@ -38,10 +40,16 @@ header
 div#home
   display: flex
   flex-direction: row
+  gap: 1em
   padding: 1em
   div.form
+    position: sticky
+    top: 20px
     width: 30%
     padding: 1em
+    align-self: start
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.075)
+    border-radius: .6em
   
 #apartments-list
   flex: 1

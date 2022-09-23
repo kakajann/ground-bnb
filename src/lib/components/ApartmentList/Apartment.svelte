@@ -13,7 +13,7 @@
   <button class={`wishlist ${$wishlist.includes(apartment.id) ? 'added' : ''}`} on:click={handleWishlist}>
     <img src="/icons/heart.svg" alt="Heart">
   </button>
-  <img src={`/apartments/${apartment.id}.jpg`} alt="Apartment">
+  <img src={`/apartments/${apartment.image}.jpg`} alt="Apartment">
   <div class="title">
     <a href="/apartment/1">
       {apartment.title}

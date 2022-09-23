@@ -19,7 +19,8 @@ declare namespace App {
     }
 
     type Item = {
-      id: number
+      id: string
+      image: string
       title: string
       rating: number
       location: string

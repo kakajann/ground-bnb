@@ -1,9 +1,9 @@
 import { writable } from "svelte/store"
 
 const wishlistStore = () => {
-  const { subscribe, update } = writable<number[]>([])
+  const { subscribe, update } = writable<string[]>([])
   
-  const toggle = (id: number) => {
+  const toggle = (id: string) => {
     update(prev => {
       if (prev.includes(id))
         return prev.filter(item => item !== id)
@@ -19,3 +19,5 @@ const wishlistStore = () => {
 }
 
 export const wishlist = wishlistStore()
+
+export const apartments = writable<App.Apartment.Item[]>([])
