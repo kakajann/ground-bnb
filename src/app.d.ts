@@ -27,5 +27,16 @@ declare namespace App {
       price: number
       details: Apartment.ItemDetails
     }
+
+    namespace Form {
+      type Create = {
+        title: string
+        city: string
+        country: string
+        bedrooms: number
+        size: number
+        price: number
+      }
+    }
   }
 }
